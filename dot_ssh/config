@@ -1,0 +1,25 @@
+### GitHub Config ###
+# Personal account
+Host github.com
+    HostName ssh.github.com
+    User git
+    Port 443
+    PreferredAuthentications publickey
+
+### GitLab Config ###
+# Personal account
+Host gitlab.com
+    HostName altssh.gitlab.com
+    User git
+    Port 443
+    PreferredAuthentications publickey
+
+# Work account
+Host gitlab.cenco
+    HostName altssh.gitlab.com
+    User git
+    Port 443
+    PreferredAuthentications publickey
+    IdentityFile ~/.ssh/id_ed25519_cenco.pub
+ 
+### Servers ####
