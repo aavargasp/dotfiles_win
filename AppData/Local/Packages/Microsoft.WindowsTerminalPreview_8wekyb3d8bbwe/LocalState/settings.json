@@ -29,9 +29,11 @@
             "keys": "ctrl+shift+f"
         }
     ],
+    "alwaysShowNotificationIcon": false,
     "copyFormatting": "none",
     "copyOnSelect": false,
     "defaultProfile": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
+    "focusFollowMouse": true,
     "newTabMenu": 
     [
         {
@@ -42,10 +44,12 @@
     {
         "defaults": 
         {
+            "adjustIndistinguishableColors": "never",
+            "cursorShape": "underscore",
             "experimental.retroTerminalEffect": false,
             "font": 
             {
-                "face": "FiraCode Nerd Font Mono",
+                "face": "Hack Nerd Font",
                 "size": 10.0
             },
             "opacity": 95,
@@ -66,18 +70,21 @@
                 "name": "Windows PowerShell"
             },
             {
+                "backgroundImage": null,
+                "colorScheme": "Dracula",
                 "guid": "{d3f31bee-5823-5ed8-8e04-f31ed54f2cd9}",
                 "hidden": false,
                 "name": "Fedora Remix for WSL",
                 "source": "Windows.Terminal.Wsl"
             },
             {
-                "backgroundImage": "%LOCALAPPDATA%\\Packages\\WhitewaterFoundryLtd.Co.FedoraRemixforWSL_kd1vv0z0vy70w\\LocalState\\Fedora_remix_purple_darkbackground_370.png",
-                "backgroundImageAlignment": "bottomRight",
-                "backgroundImageOpacity": 0.15,
-                "backgroundImageStretchMode": "none",
+                // "backgroundImage": "%LOCALAPPDATA%\\Packages\\WhitewaterFoundryLtd.Co.FedoraRemixforWSL_kd1vv0z0vy70w\\LocalState\\Fedora_remix_purple_darkbackground_370.png",
+                // "backgroundImageAlignment": "bottomRight",
+                // "backgroundImageOpacity": 0.15,
+                // "backgroundImageStretchMode": "none",
+                "backgroundImage": null,
                 "bellStyle": "none",
-                "colorScheme": "Fedora Remix for WSL",
+                "colorScheme": "Dracula",
                 "commandline": "%LOCALAPPDATA%\\Microsoft\\WindowsApps\\fedoraremix.exe -s",
                 "cursorShape": "filledBox",
                 "experimental.autoMarkPrompts": true,
@@ -89,19 +96,9 @@
                 "startingDirectory": null
             },
             {
-                "guid": "{51855cb2-8cce-5362-8f54-464b92b32386}",
-                "hidden": false,
-                "name": "Ubuntu",
-                "source": "CanonicalGroupLimited.Ubuntu_79rhkp1fndgsc"
-            },
-            {
-                "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
-                "hidden": true,
-                "name": "Ubuntu",
-                "source": "Windows.Terminal.Wsl"
-            },
-            {
+                "colorScheme": "Vintage",
                 "commandline": "%SystemRoot%\\System32\\cmd.exe",
+                "experimental.retroTerminalEffect": false,
                 "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
                 "hidden": false,
                 "name": "Command Prompt"
@@ -161,6 +158,29 @@
             "selectionBackground": "#FFFFFF",
             "white": "#CCCCCC",
             "yellow": "#C19C00"
+        },
+        {
+            "background": "#1E1F29",
+            "black": "#000000",
+            "blue": "#BD93F9",
+            "brightBlack": "#555555",
+            "brightBlue": "#BD93F9",
+            "brightCyan": "#8BE9FD",
+            "brightGreen": "#50FA7B",
+            "brightPurple": "#FF79C6",
+            "brightRed": "#FF5555",
+            "brightWhite": "#FFFFFF",
+            "brightYellow": "#F1FA8C",
+            "cursorColor": "#BBBBBB",
+            "cyan": "#8BE9FD",
+            "foreground": "#F8F8F2",
+            "green": "#50FA7B",
+            "name": "Dracula",
+            "purple": "#FF79C6",
+            "red": "#FF5555",
+            "selectionBackground": "#44475A",
+            "white": "#BBBBBB",
+            "yellow": "#F1FA8C"
         },
         {
             "background": "#1E1E1E",
@@ -370,5 +390,7 @@
             "yellow": "#808000"
         }
     ],
-    "themes": []
+    "theme": "system",
+    "themes": [],
+    "useAcrylicInTabRow": true
 }
